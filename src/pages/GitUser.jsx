@@ -192,6 +192,7 @@ const GitUser = () => {
                 userRepo.map((value) => {
                   return (
                     <div key={value.id}>
+                    <hr/>
                       <p>
                         <strong>Public Repos:</strong> {value.public_repos}
                       </p>
